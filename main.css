@@ -1,0 +1,182 @@
+/* Styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    list-style: none;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+header {
+    width: 100%;
+    height: fit-content;
+    background-color: #1F2937;
+    color: white;
+    padding: 1em 10em 4em 10em;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.menu ul li {
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text h1 {
+    font-weight: 900;
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.text p {
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.image {
+    flex: 0 1 250px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid e5e7eb7c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e5e7eb7c;
+}
+
+button {
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+    color: white;
+    border-radius: 6px;
+    padding: 5px 2em;
+}
+
+.image p {
+    font-weight: 100;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 2em;
+}
+
+section h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.cards-section {
+    display: flex;
+    padding: 0 7em;
+    gap: 2em;
+
+}
+
+.card-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-items p {
+    text-align: center;
+    font-weight: 300;
+}
+
+.card {
+    aspect-ratio: 1/1;
+    width: 100%;
+    border-radius: 12px;
+    border: 4px solid #3882F6;
+}
+
+.quote {
+    padding: 2em 7em;
+    background-color: #E5E7EB;
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author {
+    text-align: right;
+    font-weight: 700;
+}
+
+.action {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.action div {
+    background-color: #3882F6;
+    border-radius: 12px;
+    display: flex;
+    width: 70%;
+    padding: 1em;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.action button {
+    border: 1px solid white;
+    padding: 5px 2em;
+}
+
+footer {
+    height: 90px;
+    font-weight: 200;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
